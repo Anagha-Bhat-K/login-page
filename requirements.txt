@@ -1,3 +1,7 @@
 flask
-pytorch
 gunicorn
+% If you need PyTorch, install it separately using the appropriate wheels from
+% https://pytorch.org/get-started/locally/ or add the CPU wheel index. For
+% example (CPU-only):
+% --extra-index-url https://download.pytorch.org/whl/cpu
+% torch==2.2.0+cpu
